@@ -1,0 +1,113 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+p{
+    color: blue;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+
+nav{
+  background-color:black;
+  text-align: right;
+  font-size: 22px;
+  position: fixed;
+  display: block;
+  width: 100%;
+  margin-top: 0px;
+  
+}
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+}
+.nav-container{
+    margin-right: 50px;
+    margin-top: 0px;
+}
+body{
+    margin: 0px;
+}
+.comtainer{
+    padding: 0 20%;
+}
+#Home{
+    margin-top: 0px;
+    text-align: left;
+    background-position-y: center;
+    background-repeat: repeat;
+    background-size: fill;
+}
+#about-me{
+    text-align: left;
+    background-position-y: center;
+    background-repeat: repeat;
+    background-size: fill;
+}
+
+#education{
+    background-color: rebeccapurple;
+    text-align: center;
+}
+
+#contact-me{
+    background-color: rgb(255, 255, 255);
+}
+section{
+    padding: 20px 10px;
+}
+
+.MyPicture{
+    text-align: left;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid green;
+    border-radius: 80%;
+    
+}
+button{
+    background-color:white;
+    height: 20px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+label{
+    display: block;
+    border-radius: 30px;
+    margin-left: 15px;
+    
+}
+input{
+    width:100%;
+    border-radius: 30px;
+    padding:5px;
+    border-color:red;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+.col-1{
+    width:49%;
+    float: left;
+}
+.col-2{
+    width:49%;
+    float: right;
+}
